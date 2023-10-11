@@ -1,6 +1,6 @@
 package com.jpaoletti
 
-fun main(args: Array<String>) {
+fun main() {
     println("Hello, world!")
     println(KotlinVersion.CURRENT)
 }
