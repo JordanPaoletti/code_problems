@@ -8,7 +8,7 @@ fun main() {
     pt2()
 }
 
-fun pt2() {
+private fun pt2() {
     println("Part 2")
     val input = inputLines(year = 2015, day = 1, part = 1).first() // part 2 uses same input
 
@@ -29,7 +29,7 @@ fun pt2() {
     }
 }
 
-fun pt1() {
+private fun pt1() {
     println("Part 1")
     val input = inputLines(year = 2015, day = 1, part = 1).first()
 
