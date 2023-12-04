@@ -1,6 +1,6 @@
 package com.jpaoletti.aoc
 
-// https://adventofcode.com/2015
+// https://adventofcode.com/2023
 fun main() {
     println("Day x:")
     println()
@@ -14,7 +14,7 @@ fun main() {
 
 private fun pt1() {
     println("Part 1:")
-    val input = inputLines(year = 2015, day = 1, part = 1).first()
+    val input = inputLines(year = 2023, day = 1, part = 1).first()
 }
 
 private fun pt2() {
