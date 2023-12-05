@@ -7,9 +7,11 @@ fun getCwd(): String {
 }
 
 fun inputLines(year: Int, day: Int, part: Int): List<String> {
-    val filename = "${getCwd()}/kotlin/input/aoc/y${year}/day${day}/pt${part}"
-    val file = File(filename)
-    return file.readLines()
+    return inputLines(year, day, "pt$part")
+}
+
+fun inputLinesEx(year: Int, day: Int): List<String> {
+    return inputLines(year, day, "ex")
 }
 
 fun inputLines(year: Int, day: Int, file: String): List<String> {
